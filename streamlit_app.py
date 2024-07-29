@@ -3,10 +3,10 @@ import csv
 import io
 import streamlit as st
 
-st.title("🎈 JSON to CSV Converter")
+st.title("🎈 Exa AI JSON to CSV Converter")
 
 # JSON input
-json_input = st.text_area("Enter your JSON data here:")
+json_input = st.text_area("Enter your JSON data from Exa AI here:")
 
 # Validate JSON and convert to CSV
 if st.button("Convert to CSV"):
